@@ -1,0 +1,110 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+}
+
+body {
+    background: whitesmoke;
+    color: black;
+}
+
+/* container */
+
+.container {
+    width: 1100px;
+    max-width: 85%;
+    margin: auto;
+}
+
+/* navbar */
+
+.navbar {
+    border-bottom: 5px solid black;
+    padding: 20px 0;
+}
+    
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: overline;
+    color: rgb(241, 10, 17);
+    font-size: 20px;
+}
+
+.nav-links a:hover {
+    color: rgb(206, 7, 120);
+}
+
+/* hero */
+
+.hero {
+    padding: 80px 0;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: black;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.primary-btn {
+    background: black;
+    color: whitesmoke;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.secondary-btn {
+    background: black;
+    border: 1px solid black;
+    color: whitesmoke;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+.hero-image img {
+    width: 340px;
+    border-radius: 10px;
+}
